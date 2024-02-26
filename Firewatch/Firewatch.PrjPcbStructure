@@ -1,0 +1,8 @@
+Record=TopLevelDocument|FileName=BoschIMU.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=BoschIMU.SchDoc|FileName=Grideye.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=BoschIMU.SchDoc|FileName=MicrochipUWB.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=BoschIMU.SchDoc|FileName=pressure.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=BoschIMU.SchDoc|FileName=Teensy.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=BoschIMU.SchDoc|FileName=ublox_GPS.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=BoschIMU.SchDoc|FileName=ublox_wifi.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=BoschIMU.SchDoc|FileName=voltage_reg.SchDoc|SheetNumber=2
