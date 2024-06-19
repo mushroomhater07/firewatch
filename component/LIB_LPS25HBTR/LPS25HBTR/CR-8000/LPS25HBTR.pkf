@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LPS25HBTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LPS25HBTR")
+        (spec "default")
+    )
+)

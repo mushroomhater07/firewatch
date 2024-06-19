@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=AMG8854
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=14
+Version=2.1
+Released=2022-08-24 08:00:32
+Downloaded=2024-02-23 15:20:20
+3D=Y

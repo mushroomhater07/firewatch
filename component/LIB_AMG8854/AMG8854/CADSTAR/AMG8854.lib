@@ -1,0 +1,16 @@
+.AMG8854 :1 ;Product: Infrared Array Sensor Grid-EYE, Series/Type: AMG88xx (High performance type), Number of pixel: 64 (Vertical 8 x Horizontal 8 Matrix), Operating voltage (DC) (V): 5, Viewing angle (): 60, Amplification factor: Low gain, Mounting form: Surface Mount Type
+AMG8854
+*STM IC
+*NGS
+*PLB 1="NC_1" 2="SDA" 3="SCL" 4="INT" 5="AD_SELECT" 6="GND" 7="NC_2" 8="NC_3" 9="VDD" 10="AVDD-PC" 11="NC_4" 12="DVDD-PC" 13="VPP" 14="NC_5"
+*MXP 14
+*DFN AMG8854
+~!Mouser Part Number (667-AMG8854)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/AMG8854?qs=sSYV1F9c5cGiWvzHDbpBOw%3D%3D)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (AMG8854)
+~!Link Datasheet (https://industrial.panasonic.com/cdbs/www-data/pdf/ADI8000/ADI8000C66.pdf)
+~!Height (4.3mm)
+~!3D_Model (AMG8854)
+AMG8854
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

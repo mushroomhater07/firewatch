@@ -1,0 +1,224 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AMG8854"
+   (description "Product: Infrared Array Sensor Grid-EYE, Series/Type: AMG88xx (High performance type), Number of pixel: 64 (Vertical 8 x Horizontal 8 Matrix), Operating voltage (DC) (V): 5, Viewing angle (): 60, Amplification factor: Low gain, Mounting form: Surface Mount Type")
+   (family "ANA")
+   (package "AMG8854")
+   (attribute "Datasheet Link" "https://industrial.panasonic.com/cdbs/www-data/pdf/ADI8000/ADI8000C66.pdf")
+   (attribute "Geometry.Height" "4.3mm")
+   (attribute "Mouser Part Number" "667-AMG8854")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/AMG8854?qs=sSYV1F9c5cGiWvzHDbpBOw%3D%3D")
+   (attribute "Manufacturer_Name" "Panasonic")
+   (attribute "Manufacturer_Part_Number" "AMG8854")
+   (gate
+    (symbol "AMG8854")
+    (pin "NC_1" 1 PS)
+    (pin "SDA" 2 PS)
+    (pin "SCL" 3 PS)
+    (pin "INT" 4 PS)
+    (pin "AD_SELECT" 5 PS)
+    (pin "GND" 6 PS)
+    (pin "NC_2" 7 PS)
+    (pin "NC_3" 8 PS)
+    (pin "VDD" 9 PS)
+    (pin "AVDD-PC" 10 PS)
+    (pin "NC_4" 11 PS)
+    (pin "DVDD-PC" 12 PS)
+    (pin "VPP" 13 PS)
+    (pin "NC_5" 14 PS)
+   )
+  )
+  (symbol "AMG8854"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AMG8854"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.8 -4)
+      (pt 5.8 -4)
+      (pt 5.8 4)
+      (pt -5.8 4)
+      (pt -5.8 -4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.9 5.35)
+      (pt 6.9 5.35)
+      (pt 6.9 -5.35)
+      (pt -6.9 -5.35)
+      (pt -6.9 5.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.5 -5)
+      (arc (pt -5.500 -5.000) (pt -5.550 -5.000) (pt -5.450 -4.900) (start 180.0) (sweep -90.0))
+      (pt -5.5 -4.9)
+      (arc (pt -5.500 -4.900) (pt -5.550 -5.000) (pt -5.450 -4.900) (start 180.0) (sweep 90.0))
+      (pt -5.5 -5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.8 -4)
+      (pt -3.2 -4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.2 -4)
+      (pt 4.8 -4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 5.8 -1.4)
+      (pt 5.8 1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 4.8 4)
+      (pt 3.2 4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.2 4)
+      (pt -4.8 4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.8 1.4)
+      (pt -5.8 -0.4))))
+   (leg 1 (pt -5.500 -2.550) (padstack 1))
+   (leg 2 (pt -2.540 -3.050) (padstack 0))
+   (leg 3 (pt -1.270 -3.050) (padstack 0))
+   (leg 4 (pt 0.000 -3.050) (padstack 0))
+   (leg 5 (pt 1.270 -3.050) (padstack 0))
+   (leg 6 (pt 2.540 -3.050) (padstack 0))
+   (leg 7 (pt 5.500 -3.050) (padstack 7))
+   (leg 8 (pt 5.500 3.050) (padstack 8))
+   (leg 9 (pt 2.540 3.050) (padstack 0))
+   (leg 10 (pt 1.270 3.050) (padstack 0))
+   (leg 11 (pt 0.000 3.050) (padstack 0))
+   (leg 12 (pt -1.270 3.050) (padstack 0))
+   (leg 13 (pt -2.540 3.050) (padstack 0))
+   (leg 14 (pt -5.500 3.050) (padstack 14))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 2.600 0 0 90.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 3.600 0 0 90.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 2.600 0 0 90.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 2.600 0 0 90.000))
+   )
+   (padstack 14
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 2.600 0 0 90.000))
+   )
+   (model "AMG8854.stp"
+    (euler 0 0 180)
+    (offset 0.25999999046325684 0 1.350000023841858)
+   )
+  )
+ )
+)

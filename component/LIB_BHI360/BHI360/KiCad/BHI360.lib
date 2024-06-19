@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BHI360
+#/18274590/1335035/2.50/20/3/Undefined or Miscellaneous
+DEF BHI360 U 0 30 Y Y 1 F N
+F0 "U" 1250 300 50 H V L CNN
+F1 "BHI360" 1250 200 50 H V L CNN
+F2 "BHI360" 1250 100 50 H I L CNN
+F3 "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bhi360-ds000.pdf" 1250 0 50 H I L CNN
+F4 "IMUs - Inertial Measurement Units Programmable smart sensor combining accelerometer, gyroscope and fusion software" 1250 -100 50 H I L CNN "Description"
+F5 "1" 1250 -200 50 H I L CNN "Height"
+F6 "262-BHI360" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BHI360?qs=ulEaXIWI0c93cz3Dqv%252BGgg%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "BOSCH" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BHI360" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X HSDO 1 0 0 200 R 50 50 0 0 P
+X ASDX 2 0 -100 200 R 50 50 0 0 P
+X ASCX 3 0 -200 200 R 50 50 0 0 P
+X HIRQ 4 0 -300 200 R 50 50 0 0 P
+X VDDIO 5 0 -400 200 R 50 50 0 0 P
+X GNDIO 6 0 -500 200 R 50 50 0 0 P
+X GND 7 0 -600 200 R 50 50 0 0 P
+X VDD 8 0 -700 200 R 50 50 0 0 P
+X VREG 9 0 -800 200 R 50 50 0 0 P
+X OCSB 10 0 -900 200 R 50 50 0 0 P
+X OSDO 11 1400 0 200 L 50 50 0 0 P
+X HCSB 12 1400 -100 200 L 50 50 0 0 P
+X HSCX 13 1400 -200 200 L 50 50 0 0 P
+X HSDX 14 1400 -300 200 L 50 50 0 0 P
+X M3SCL 15 1400 -400 200 L 50 50 0 0 P
+X JTAG_DIO 16 1400 -500 200 L 50 50 0 0 P
+X RESETN 17 1400 -600 200 L 50 50 0 0 P
+X M3SDA 18 1400 -700 200 L 50 50 0 0 P
+X RESV2 19 1400 -800 200 L 50 50 0 0 P
+X RESV1 20 1400 -900 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -1000 200 -1000 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

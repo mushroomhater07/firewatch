@@ -1,0 +1,158 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LPS25HBTR"
+   (description "Board Mount Pressure Sensor 26kPa to 126kPa Absolute 10-Pin HLGA T/R")
+   (family "ANA")
+   (package "LPS25HBTR")
+   (attribute "Datasheet Link" "https://www.st.com/resource/en/datasheet/lps25hb.pdf")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "Mouser Part Number" "511-LPS25HBTR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LPS25HBTR?qs=GDOUxV2YAh9IvjPyBKWGzQ%3D%3D")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "LPS25HBTR")
+   (gate
+    (symbol "LPS25HBTR")
+    (pin "VDD_IO" 1 PS)
+    (pin "SCL/_SPC" 2 PS)
+    (pin "RES" 3 PS)
+    (pin "SDA/SDI/SDO" 4 PS)
+    (pin "SDO/_SA0" 5 PS)
+    (pin "CS" 6 PS)
+    (pin "INT_DRDY" 7 PS)
+    (pin "GND_1" 8 PS)
+    (pin "GND_2" 9 PS)
+    (pin "VDD" 10 PS)
+   )
+  )
+  (symbol "LPS25HBTR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 500) (pt 1400 500) (pt 1400 -900) (pt 200 -900) (pt 200 500) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 -1100) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -1100) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -1100) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 700) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 700) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 700) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LPS25HBTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.25 1.25)
+      (pt 1.25 1.25)
+      (pt 1.25 -1.25)
+      (pt -1.25 -1.25)
+      (pt -1.25 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.25 2.25)
+      (pt 2.25 2.25)
+      (pt 2.25 -2.25)
+      (pt -2.25 -2.25)
+      (pt -2.25 2.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.8 0.3)
+      (arc (pt -1.800 0.300) (pt -1.800 0.250) (pt -1.700 0.350) (start 180.0) (sweep 180.0))
+      (pt -1.7 0.3)
+      (arc (pt -1.700 0.300) (pt -1.800 0.250) (pt -1.700 0.350) (start 180.0) (sweep .0))
+      (pt -1.8 0.3))))
+   (leg 1 (pt -0.920 0.300) (padstack 1))
+   (leg 2 (pt -0.920 -0.300) (padstack 2))
+   (leg 3 (pt -0.600 -0.920) (padstack 0))
+   (leg 4 (pt 0.000 -0.920) (padstack 0))
+   (leg 5 (pt 0.600 -0.920) (padstack 0))
+   (leg 6 (pt 0.920 -0.300) (padstack 6))
+   (leg 7 (pt 0.920 0.300) (padstack 7))
+   (leg 8 (pt 0.600 0.920) (padstack 0))
+   (leg 9 (pt 0.000 0.920) (padstack 0))
+   (leg 10 (pt -0.600 0.920) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.450 0 0 90.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.450 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.450 0 0 0.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.450 0 0 0.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.450 0 0 0.000))
+   )
+   (model "LPS25HBTR.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

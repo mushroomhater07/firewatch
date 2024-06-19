@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BHI360"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-05-27-10:06:41)
+    (mountForm default
+        (footprintRef "BHI360")
+        (spec "System")
+    )
+)

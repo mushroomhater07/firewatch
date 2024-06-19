@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMG8854
+D Product: Infrared Array Sensor Grid-EYE, Series/Type: AMG88xx (High performance type), Number of pixel: 64 (Vertical 8 x Horizontal 8 Matrix), Operating voltage (DC) (V): 5, Viewing angle (): 60, Amplification factor: Low gain, Mounting form: Surface Mount Type
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/ADI8000/ADI8000C66.pdf
+$ENDCMP
+#
+#End Doc Library

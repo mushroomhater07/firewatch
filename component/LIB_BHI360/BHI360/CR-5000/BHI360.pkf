@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BHI360"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BHI360")
+        (spec "default")
+    )
+)

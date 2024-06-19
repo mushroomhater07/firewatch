@@ -1,0 +1,176 @@
+
+(EDIF
+  (rename &LPS25HBTR "LPS25HBTR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 02 25 23 57 27)
+      (dataOrigin "12997472/1335035/2.50/10/4/Integrated Circuit")
+      (program "SamacSys ECAD Model LPS25HBTR"
+        (version "1.3"))))
+  (library
+  (rename &LPS25HBTR "LPS25HBTR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &LPS25HBTR "LPS25HBTR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "LPS25HBTR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "LPS25HBTR"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "511-LPS25HBTR"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LPS25HBTR?qs=GDOUxV2YAh9IvjPyBKWGzQ%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "STMicroelectronics"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "LPS25HBTR"))
+          (property (rename &Description "Description") (string "Board Mount Pressure Sensor 26kPa to 126kPa Absolute 10-Pin HLGA T/R"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.st.com/resource/en/datasheet/lps25hb.pdf"))
+          (property (rename &Height "Height") (string "0.8 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "LPS25HBTR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &VDD_IO "VDD_IO")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &SCL__SPC "SCL__SPC")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &RES "RES")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &SDA_SDI_SDO "SDA_SDI_SDO")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &SDO__SA0 "SDO__SA0")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &CS "CS")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &INT_DRDY "INT_DRDY")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_1 "GND_1")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_2 "GND_2")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (port
+            (rename &VDD "VDD")
+            (designator "10")
+            (property (rename ORDER "Order") (string "9") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &VDD_IO (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &SCL__SPC (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -600) (pt 0 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -600))))
+            )
+            (portImplementation
+              (name &RES (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -1600) (pt 500 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -1600))))
+            )
+            (portImplementation
+              (name &SDA_SDI_SDO (display PINNAME))
+              (figure PIN (path (pointList (pt 600 -1600) (pt 600 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -1600))))
+            )
+            (portImplementation
+              (name &SDO__SA0 (display PINNAME))
+              (figure PIN (path (pointList (pt 700 -1600) (pt 700 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -1600))))
+            )
+            (portImplementation
+              (name &CS (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -600) (pt 1400 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -600))))
+            )
+            (portImplementation
+              (name &INT_DRDY (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -500) (pt 1400 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -500))))
+            )
+            (portImplementation
+              (name &GND_1 (display PINNAME))
+              (figure PIN (path (pointList (pt 700 200) (pt 700 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 200))))
+            )
+            (portImplementation
+              (name &GND_2 (display PINNAME))
+              (figure PIN (path (pointList (pt 600 200) (pt 600 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 200))))
+            )
+            (portImplementation
+              (name &VDD (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1200 0)
+                  (pt 1200 -1400)
+                  (pt 0 -1400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1250 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1250 30))))
+          )
+        )
+      )
+    )
+  )
+)

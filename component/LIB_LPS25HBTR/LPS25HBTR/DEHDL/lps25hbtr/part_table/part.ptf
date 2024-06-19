@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LPS25HBTR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "LPS25HBTR" (!) = "", "LPS25HBTR", "Other", "511-LPS25HBTR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LPS25HBTR?qs=GDOUxV2YAh9IvjPyBKWGzQ%3D%3D", "Board Mount Pressure Sensor 26kPa to 126kPa Absolute 10-Pin HLGA T/R", "https://www.st.com/resource/en/datasheet/lps25hb.pdf", "0.8 mm"
+END_PART
+
+END.

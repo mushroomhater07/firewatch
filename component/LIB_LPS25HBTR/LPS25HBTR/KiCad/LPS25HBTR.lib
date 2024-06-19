@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LPS25HBTR
+#/12997472/1335035/2.50/10/4/Integrated Circuit
+DEF LPS25HBTR IC 0 30 Y Y 1 F N
+F0 "IC" 1450 700 50 H V L CNN
+F1 "LPS25HBTR" 1450 600 50 H V L CNN
+F2 "LPS25HBTR" 1450 500 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/lps25hb.pdf" 1450 400 50 H I L CNN
+F4 "Board Mount Pressure Sensor 26kPa to 126kPa Absolute 10-Pin HLGA T/R" 1450 300 50 H I L CNN "Description"
+F5 "0.8" 1450 200 50 H I L CNN "Height"
+F6 "511-LPS25HBTR" 1450 100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LPS25HBTR?qs=GDOUxV2YAh9IvjPyBKWGzQ%3D%3D" 1450 0 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 1450 -100 50 H I L CNN "Manufacturer_Name"
+F9 "LPS25HBTR" 1450 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VDD_IO 1 0 0 200 R 50 50 0 0 P
+X SCL/_SPC 2 0 -100 200 R 50 50 0 0 P
+X RES 3 700 -1100 200 U 50 50 0 0 P
+X SDA/SDI/SDO 4 800 -1100 200 U 50 50 0 0 P
+X SDO/_SA0 5 900 -1100 200 U 50 50 0 0 P
+X CS 6 1600 -100 200 L 50 50 0 0 P
+X INT_DRDY 7 1600 0 200 L 50 50 0 0 P
+X GND_1 8 900 700 200 D 50 50 0 0 P
+X GND_2 9 800 700 200 D 50 50 0 0 P
+X VDD 10 700 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1400 500 1400 -900 200 -900 200 500 N
+ENDDRAW
+ENDDEF
+#
+#End Library

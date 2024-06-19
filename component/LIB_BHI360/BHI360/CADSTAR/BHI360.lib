@@ -1,0 +1,16 @@
+.BHI360 :1 ;IMUs - Inertial Measurement Units Programmable smart sensor combining accelerometer, gyroscope and fusion software
+BHI360
+*STM U
+*NGS
+*PLB 1="HSDO" 2="ASDX" 3="ASCX" 4="HIRQ" 5="VDDIO" 6="GNDIO" 7="GND" 8="VDD" 9="VREG" 10="OCSB" 11="OSDO" 12="HCSB" 13="HSCX" 14="HSDX" 15="M3SCL" 16="JTAG_DIO" 17="RESETN" 18="M3SDA" 19="RESV2" 20="RESV1"
+*MXP 20
+*DFN BHI360
+~!Mouser Part Number (262-BHI360)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BHI360?qs=ulEaXIWI0c93cz3Dqv%252BGgg%3D%3D)
+~!Manufacturer_Name (BOSCH)
+~!Manufacturer_Part_Number (BHI360)
+~!Link Datasheet (https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bhi360-ds000.pdf)
+~!Height (1mm)
+~!3D_Model (BHI360)
+BHI360
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 

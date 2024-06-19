@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BHI360
+D IMUs - Inertial Measurement Units Programmable smart sensor combining accelerometer, gyroscope and fusion software
+K
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bhi360-ds000.pdf
+$ENDCMP
+#
+#End Doc Library
